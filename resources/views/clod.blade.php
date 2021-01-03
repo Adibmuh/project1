@@ -13,32 +13,51 @@
   <body>
     <div class="container">
         <h1>Hello, world!</h1>
+        <div class="row">
+          <div class="col">
+            <form class="row gy-2 gx-3 align-items-center">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">Default 1</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">Default 2</label>
+                </div>
     
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <div>
-                <label for="exampleColorInput" class="form-label">Color Picker</label>
-                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="563d7c" tittle="choose your color">
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheked" checked>
-                <label class="form-check-label" for="flexCheckChecked"> Default CheckBox </label>
-            </div>
-                    
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+            </form>
+          </div>
+
+          <div class="col">
+            
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div>
+                    <label for="exampleColorInput" class="form-label">Color Picker</label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="563d7c" tittle="choose your color">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckCheked" checked>
+                    <label class="form-check-label" for="flexCheckChecked"> berhail menambahkan checkbox</label>
+                </div>
+              
+                <button type="submit" class="btn btn-primary">Submit</button>
+             </form>
+      
+          </div>
+        </div>
     </div>
    
 
