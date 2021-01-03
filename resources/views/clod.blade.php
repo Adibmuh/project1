@@ -30,7 +30,7 @@
             </div>
             <div>
                 <label for="exampleColorInput" class="form-label>Color Picker</label>
-                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="563d7c" tittle="choose your color"
+                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="563d7c" tittle="choose your color">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
