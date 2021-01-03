@@ -29,9 +29,14 @@
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <div>
-                <label for="exampleColorInput" class="form-label>Color Picker</label>
+                <label for="exampleColorInput" class="form-label">Color Picker</label>
                 <input type="color" class="form-control form-control-color" id="exampleColorInput" value="563d7c" tittle="choose your color">
             </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheked" checked>
+                <label class="form-check-label" for="flexCheckChecked"> Default CheckBox </label>
+            </div>
+                    
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>

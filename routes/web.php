@@ -22,3 +22,5 @@ Route::get('/', function () {
 //     return view('home');
 // });
 Route::get('home', [HomeController::class, 'index']);
+
+Route::get('omah', [HomeController::class, 'newbie']);
