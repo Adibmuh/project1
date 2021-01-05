@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('Welcome', function () {
     return view('welcome');
 });
 
@@ -25,4 +25,4 @@ Route::get('home', [HomeController::class, 'index']);
 
 Route::get('omah', [HomeController::class, 'newbie']);
 
-Route::get('temp', [HomeController::class, 'template']);
+Route::get('/', [HomeController::class, 'template']);
