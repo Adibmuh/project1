@@ -46,6 +46,49 @@
             </tr>
           </tbody>
         </table>
+
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-primary">
+              <th scope="row">1</th>
+              <td width="50%">primary</td>
+            </tr>
+            <tr class="table-secondary">
+              <th scope="row">2</th>
+              <td>secondary</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">3</th>
+              <td>success</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">4</th>
+              <td>danger</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">5</th>
+              <td>warning</td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row">6</th>
+              <td>info</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">7</th>
+              <td>light</td>
+            </tr>
+            <tr class="table-dark">
+              <th scope="row">8</th>
+              <td>dark</td>
+            </tr>
+          </tbody>
+        </table>
     
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
