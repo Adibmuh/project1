@@ -14,6 +14,38 @@
     <div class="container">
    
         <h1>Latian Ngoding</h1>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">First</th>
+              <th scope="col">Second</th>
+              <th scope="col">Third</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mael</td>
+              <td>Maeel</td>
+              <td>@Maell</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>sutel</td>
+              <td>sutell</td>
+              <td>@suttel</td>
+            </tr>
+            <tr>
+              <th scopr="row">3</th>
+              <td>igor</td>
+              <td>igorr</td>
+              <td>@iggorr</td>
+            </tr>
+          </tbody>
+        </table>
     
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
