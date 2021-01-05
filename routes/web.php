@@ -24,3 +24,5 @@ Route::get('/', function () {
 Route::get('home', [HomeController::class, 'index']);
 
 Route::get('omah', [HomeController::class, 'newbie']);
+
+Route::get('temp', [HomeController::class, 'template']);

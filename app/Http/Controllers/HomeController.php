@@ -15,4 +15,9 @@ class HomeController extends Controller
     {
         return view('newbie');
     }
+
+    public function template()
+    {
+        return view('template');
+    }
 }
