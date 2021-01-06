@@ -89,8 +89,21 @@
             </tr>
           </tbody>
         </table>
+        <a class="btn btn-primary btn-lg d-grid gap-1" href="#" role="button">link</a>
     
     </div>
+
+    <div class="d-grid gap-2 col-6 mix-auto container">
+      <button class="btn btn-primary">Button</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic checkbox toggle buuton group">
+      <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btncheck1">checkbox1</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btncheck2">checkbox2</label>
+    </div> 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
