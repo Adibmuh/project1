@@ -24,8 +24,27 @@
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                   <label class="form-check-label" for="flexRadioDefault2">Default 2</label>
                 </div>
-    
+
+                <div class="row">
+                  <input class="form-control" type="text" placeholder="Disable input" aria-label="Disable input example" disabled>
+                </div>
+
+                <div class="Border">
+                <div class="mb-3 row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="ExampleExample@Email.com">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="Password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+                </div>
             </form>
+
           </div>
 
           <div class="col">
@@ -54,10 +73,23 @@
                 </div>
               
                 <button type="submit" class="btn btn-primary">Submit</button>
-             </form>
-      
+              </form>
+
           </div>
         </div>
+        <form class="row g-3">
+          <div class="col-auto">
+            <label for="staticEmail" class="visually-hidden">Email</label>
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Example@Email.com">
+          </div>
+          <div class="col-auto">
+            <label for="inputPassword" class="visually-hidden">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Confirm Identity</button>
+          </div>
+        </form>
     </div>
    
 
