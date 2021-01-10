@@ -89,6 +89,9 @@
           <div class="col-auto">
             <button type="submit" class="btn btn-primary mb-3">Confirm Identity</button>
           </div>
+          <div class="col-auto">
+            <button type="button" class="btn-close btn-close-black" aria-label="close"></button>
+          </div>
         </form>
     </div>
    
