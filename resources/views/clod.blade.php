@@ -92,7 +92,7 @@
           <div class="col-auto">
             <button type="button" class="btn-close btn-close-black" aria-label="close"></button>
           </div>
-          <div class="container alert alert-primary" role="alert">A simple primary alert</div>
+          <div class="container alert alert-primary" role="alert">A simple primary alert </div>
         </form>
     </div>
    
