@@ -146,6 +146,12 @@
             <td>19</td>
             <td>KUliah</td>
           </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Mahmud</td>
+            <td>23</td>
+            <td>Takmir Masjid</td>
+          </tr>
         </tbody>
       </table>
     </div>
