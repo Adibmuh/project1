@@ -104,6 +104,51 @@
       <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
       <label class="btn btn-outline-primary" for="btncheck2">checkbox2</label>
     </div> 
+
+    <div class="container">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Umur</th>
+            <th scope="col">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Adib</td>
+            <td>18</td>
+            <td>Bekerja</td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <table class="table mb-0">
+                <tr class="table-dark">
+                  <th scope="row">2</th>
+                  <td>Suryo</td>
+                  <td>17</td>
+                  <td>Bekerja</td>
+                </tr>
+                <tr class="table">
+                  <th scope="row"></th>
+                  <td>Suryo</td>
+                  <td>17</td>
+                  <td>Sedang Bekerja</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ismayanto</td>
+            <td>19</td>
+            <td>KUliah</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
