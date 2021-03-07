@@ -31,9 +31,9 @@
 
                 <div class="Border">
                 <div class="mb-3 row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="ExampleExample@Email.com">
+                    <input type="Email" class="form-control" id="inputEmail">
                   </div>
                 </div>
                 <div class="mb-3 row">
@@ -43,6 +43,9 @@
                   </div>
                 </div>
                 </div>
+              <div class="container the middle">
+                <button type="Submit" class="btn btn-primary">Enter</button>
+              </div>
             </form>
 
           </div>
