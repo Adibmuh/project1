@@ -20,4 +20,14 @@ class HomeController extends Controller
     {
         return view('template');
     }
+
+    public function belajar()
+    {
+        return view('belajar');
+    }
+
+    public function learn()
+    {
+        return view('learn');
+    }
 }

@@ -18,10 +18,6 @@ Route::get('Welcome', function () {
     return view('welcome');
 });
 
-Route::get('belajar', function () {
-    return view('belajar');
-});
-
 // Route::get('home', function () {
 //     return view('home');
 // });
@@ -30,3 +26,7 @@ Route::get('home', [HomeController::class, 'index']);
 Route::get('omah', [HomeController::class, 'newbie']);
 
 Route::get('/', [HomeController::class, 'template']);
+
+Route::get('belajar', [HomeController::class, 'belajar']);
+
+Route::get('learn', [HomeController::class, 'learn']);
