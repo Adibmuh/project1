@@ -30,4 +30,11 @@ class HomeController extends Controller
     {
         return view('learn');
     }
-}
+
+    public function about()
+    {
+        $nama = 'Mohammad Adib';
+
+        return view('about', ['nama' => $nama]);
+    }
+};
