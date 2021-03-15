@@ -22,7 +22,7 @@ Route::get('Welcome', function () {
 // Route::get('home', function () {
 //     return view('home');
 // });
-Route::get('home', [HomeController::class, 'index']);
+Route::get('home', [HomeController::class, 'clod']);
 
 Route::get('omah', [HomeController::class, 'newbie']);
 
