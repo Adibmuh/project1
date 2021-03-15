@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Students;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\Models\Mahasiswa;
 
-class MahasiswaController extends Controller
+class StudentsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,8 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        // $mahasiswa = DB::table('students')->get();
-        $mahasiswa = Mahasiswa::all();
-        return view('New.mahasiswa', ['mahasiswa' => $mahasiswa]);
+        $students = Students::all();
+        return view('students.Murid', ['Murid' => $students]);
     }
 
     /**
@@ -44,10 +42,10 @@ class MahasiswaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Students  $students
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Students $students)
     {
         //
     }
@@ -55,10 +53,10 @@ class MahasiswaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Students  $students
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Students $students)
     {
         //
     }
@@ -67,10 +65,10 @@ class MahasiswaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Students  $students
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Students $students)
     {
         //
     }
@@ -78,10 +76,10 @@ class MahasiswaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Students  $students
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Students $students)
     {
         //
     }

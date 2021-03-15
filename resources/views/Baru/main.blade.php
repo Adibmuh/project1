@@ -23,6 +23,7 @@
               <a class="nav-link active" aria-current="page" href="/learn">Home</a>
               <a class="nav-link active" href="/about">about</a>
               <a class="nav-link" href="/mahasiswa">mahasiswa</a>
+              <a class="nav-link" href="/students">students</a>
             </div>
           </div>
         </div>

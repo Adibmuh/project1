@@ -37,3 +37,6 @@ Route::get('about', [HomeController::class, 'about']);
 // Route::get('mahasiswa', [FirstController::class, 'mahasiswa']);
 
 Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
+
+// students
+Route::get('/Murid', [StudentsController::class, 'index']);
