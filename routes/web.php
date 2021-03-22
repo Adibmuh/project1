@@ -41,3 +41,7 @@ Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 
 // students
 Route::get('/students', [StudentsController::class, 'index']);
+
+Route::get('/students/create', [StudentsController::class, 'create']);
+
+Route::get('/students/{student}', [StudentsController::class, 'show']);
