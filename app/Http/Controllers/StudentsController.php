@@ -36,9 +36,32 @@ class StudentsController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+        // cara pertama
+        
+        // $student = new Student;
+        // $student->nama = $request->nama;
+        // $student->nrp = $request->nrp;
+        // $student->email = $request->email;
+        // $student->jurusan = $request->jurusan;
 
+        // $student->save();
+
+        //cara kedua
+
+        // Student::create([
+        //     'nama' => $request->nama,
+        //     'nrp' => $request->nrp,
+        //     'email' => $request->email,
+        //     'jurusan' => $request->jurusan
+        // ]);
+
+        // cara ketiga yang lebih ringkas tapi jika sudah menambahkan fillable.
+
+        Student::create($request->all());
+
+            return redirect('/students');
+        }
+        
     /**
      * Display the specified resource.
      *
