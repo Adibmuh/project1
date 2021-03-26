@@ -19,8 +19,13 @@
                 <p class="card-text">{{$student->jurusan}}</p>
 
                 <button type='submut' class="btn btn-primary">edit</button>
-                <button type='submut' class="btn btn-danger">delete</button>
-
+                {{-- @method digunakan untuk mengelabuhi method yang ada di dalam form
+                    @csrf agar soursce aman --}}
+                <form action="{{ $student->id }}" method="post" class="d-inline">
+                    @method('delete')
+                    @csrf 
+                    <button type='submut' class="btn btn-danger">delete</button>
+                </form>
                 <a href="/students" class="card-link">Kembali</a>
             </div>
         </div>

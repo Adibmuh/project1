@@ -55,11 +55,17 @@ class StudentsController extends Controller
         //     'jurusan' => $request->jurusan
         // ]);
 
-        // cara ketiga yang lebih ringkas tapi jika sudah menambahkan fillable.
+        $request->validate([    //habis di validasi tinggal menampilkan pesannya.
+            'nama' => 'required',
+            'nrp' => 'required|size:6',
+            'email' => 'required',
+            'jurusan' => 'required'
+        ]);
+
+        // cara ketiga yang lebih ringkas tapi jika sudah menambahkan fillable=(field mana saja yang boleh di isi, sedangkan guarded kebalikannya).
 
         Student::create($request->all());
-
-            return redirect('/students');
+            return redirect('/students')->with('status', 'Data Berhasil Ditambahkan!');
         }
         
     /**
@@ -104,6 +110,8 @@ class StudentsController extends Controller
      */
     public function destroy(Student $student)
     {
-        //
+        Student::destroy($student->id);
+        return redirect('/students')->with('status', 'Data Berhasil Dihapus !');
+        
     }
 }
